@@ -27,7 +27,7 @@ This project analysis a Distributed Denial of Service (DDoS) attack on Connected
 
 ## File Structure
 ```
-.
+Main Project File
 ├── map.osm                # Downloaded OpenStreetMap file
 ├── map.net.xml            # SUMO network file
 ├── map.trips.xml          # Randomly generated trips file
