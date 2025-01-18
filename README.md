@@ -1,11 +1,11 @@
 # Analysis of DDoS Attack on Connected Autonomous Vehicular Network
 
 ## Overview
-This project simulates a Distributed Denial of Service (DDoS) attack on Connected Autonomous Vehicles (CAVs) using the **SUMO (Simulation of Urban MObility)** simulator and Python's **TraCI** library. The primary objective is to analyze the impact of a DDoS attack on vehicular networks and visualize the results through graphs.
+This project analysis a Distributed Denial of Service (DDoS) attack on Connected Autonomous Vehicles (CAVs) using the **SUMO (Simulation of Urban MObility)** simulator and Python's **TraCI** library. The primary objective is to analyze the impact of a DDoS attack on vehicular networks and visualize the results through graphs.
 
 ## Features
 - Integration of Python with SUMO using TraCI.
-- Simulation of a DDoS attack by sending malicious packets to vehicles.
+- Analysis of a DDoS attack by sending malicious packets to vehicles.
 - Logging of active vehicle count and packet load at each simulation step.
 - Visualization of the simulation results using Matplotlib.
 
@@ -69,7 +69,7 @@ This project simulates a Distributed Denial of Service (DDoS) attack on Connecte
   </configuration>
   ```
 
-### 3. Run the Simulation
+### 3. Run the Python Script
 - Execute the Python script:
   ```bash
   python ddos_simulation.py
